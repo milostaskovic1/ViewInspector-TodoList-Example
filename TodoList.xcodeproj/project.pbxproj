@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0ADA04402E00085700F66B60 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = 0ADA043F2E00085700F66B60 /* ViewInspector */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0ADA04112E0004D900F66B60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,8 @@
 		0ADA04022E0004D700F66B60 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADA04102E0004D900F66B60 /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADA041A2E0004D900F66B60 /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADA04412E004ABA00F66B60 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0ADA04422E004AFB00F66B60 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -59,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ADA04402E00085700F66B60 /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +86,8 @@
 				0ADA04132E0004D900F66B60 /* TodoListTests */,
 				0ADA041D2E0004D900F66B60 /* TodoListUITests */,
 				0ADA04032E0004D700F66B60 /* Products */,
+				0ADA04412E004ABA00F66B60 /* README.md */,
+				0ADA04422E004AFB00F66B60 /* screenshot.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +144,7 @@
 			);
 			name = TodoListTests;
 			packageProductDependencies = (
+				0ADA043F2E00085700F66B60 /* ViewInspector */,
 			);
 			productName = TodoListTests;
 			productReference = 0ADA04102E0004D900F66B60 /* TodoListTests.xctest */;
@@ -195,6 +205,9 @@
 			);
 			mainGroup = 0ADA03F92E0004D700F66B60;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0ADA043E2E00085700F66B60 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0ADA04032E0004D700F66B60 /* Products */;
 			projectDirPath = "";
@@ -583,6 +596,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ADA043E2E00085700F66B60 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0ADA043F2E00085700F66B60 /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ADA043E2E00085700F66B60 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ADA03FA2E0004D700F66B60 /* Project object */;
 }
