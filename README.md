@@ -68,16 +68,6 @@ func testListRendersCorrectRows() throws {
 
 ---
 
-## 📦 Getting Started
-
-1. Clone the repo\
-   `git clone https://github.com/yourorg/ViewInspector-TodoList-Example.git`
-2. Open in Xcode
-3. `File > Add Packages...` and add `https://github.com/nalexn/ViewInspector` to your test target
-4. Run tests (⌘U) – they should pass instantly
-
----
-
 ## 📚 Further Reading
 
 - [ViewInspector Docs](https://github.com/nalexn/ViewInspector)
