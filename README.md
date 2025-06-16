@@ -63,7 +63,6 @@ func testListRendersCorrectRows() throws {
 
 - Test UI logic *at the speed of unit tests*
 - No need for UI test flakiness or CI headaches
-- Keeps business logic in your ViewModels
 - Most common SwiftUI APIs and modifiers are supported ([readiness list](https://github.com/nalexn/ViewInspector/blob/0.10.3/readiness.md))
 
 ---
